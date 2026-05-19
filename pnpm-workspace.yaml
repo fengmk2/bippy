@@ -1,3 +1,7 @@
 packages:
   - "packages/*"
   - "packages/e2e/fixtures/*"
+minimumReleaseAge: 4320
+minimumReleaseAgeExclude:
+  - vite-plus
+  - "@voidzero-dev/*"
