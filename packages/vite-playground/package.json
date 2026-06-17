@@ -22,6 +22,6 @@
     "@vitejs/plugin-react": "^4.3.4",
     "tailwindcss": "4.0.0-beta.8",
     "typescript": "^5.7.3",
-    "vite-plus": "latest"
+    "vite-plus": "https://pkg.pr.new/voidzero-dev/vite-plus@1856"
   }
 }
