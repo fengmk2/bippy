@@ -1,3 +1,20 @@
 packages:
   - "packages/*"
   - "packages/e2e/fixtures/*"
+
+overrides:
+  react: "^19.2.4"
+  react-dom: "^19.2.4"
+
+minimumReleaseAge: 60
+minimumReleaseAgeExclude:
+  - vite-plus
+  - vite
+  - vitest
+  - "@voidzero-dev/*"
+  - "@oxc-project/*"
+  - "@oxlint/*"
+  - oxlint
+  - oxfmt
+  - oxlint-tsgolint
+blockExoticSubdeps: false
